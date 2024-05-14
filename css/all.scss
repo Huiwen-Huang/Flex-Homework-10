@@ -136,7 +136,7 @@ table {
 body {
   line-height: 1.4;
   background-color: #f5f5f5;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .productList {
   width: 952px;
@@ -147,6 +147,17 @@ body {
   padding: 4px;
   .menu {
     width: 300px;
+    .title {
+      font-size: 24px;
+      font-weight: 600;
+      background-color: #3f5d45;
+      color: #fff;
+      display: block;
+      text-align: center;
+      padding: 16px 0;
+      border: 0px;
+      text-decoration: none;
+    }
     ul {
       li {
         a {
@@ -154,24 +165,14 @@ body {
           font-weight: 600;
           color: #3f5d45;
           display: block;
-          padding: 16px 0;
           background-color: #fff;
           text-align: center;
           border: 1px solid #eaf0ed;
-
+          padding: 16px 0;
           text-decoration: none;
         }
         :hover {
           background-color: #eaf0ed;
-        }
-      }
-      .title {
-        a {
-          background-color: #3f5d45;
-          color: #fff;
-          display: block;
-          border: 0px;
-          text-decoration: none;
         }
       }
     }
@@ -220,6 +221,10 @@ body {
           padding: 24px 0;
           background-color: #eaf0ed;
           text-decoration: none;
+          &:hover {
+            color: #eaf0ed;
+            background-color: #3f5d45;
+          }
         }
       }
       .thirdCard {
